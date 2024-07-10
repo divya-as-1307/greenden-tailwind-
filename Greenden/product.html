@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Greenden</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+
+ <!--Responsive Navbar-->
+ <nav class="bg-green-100 p-3 flex items-center justify-between shadow-lg sticky top-0 z-10">
+    <h1 class="text-xl">Greenden</h1>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+      class="w-9 md:hidden ">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+    </svg>
+
+    <ul class=" gap-5 text-gray-600 hidden md:flex">
+      <li>
+        <a class="hover:underline  hover:text-black" href="index.html">Home</a>
+      </li>
+      <li>
+        <a class="hover:underline hover:text-black" href="product.html">Products</a>
+      </li>
+      <li>
+        <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
+    <!--Header-->
+
+<section class="text-center">
+    <h1 class="text-3xl font-bold mt-5 ">Our Products</h1>
+    <input class="border border-black mt-5 p-2 m-3" style="width: 60%;"   type="text" placeholder="Search for a product...">
+</section>
+
+<!--Products-->
+<section class="p-4 text-center">
+    <h1 class="text-3xl text-center font-bold mt-5">Best Seller</h1>
+    <div class="grid grid-cols-2 mt-5 gap-5 md:grid-cols-4">
+      <div>
+        <img src="./p-1.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="plant">
+        <h1>Marigold</h1>
+        <p>$48</p>
+      </div>
+      <div>
+        <img src="./p-2.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="plant">
+        <h1>Lavendar pot </h1>
+        <p>$165</p>
+      </div>
+      <div>
+        <img src="./p-3.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="plant">
+        <h1>Lilly Plant</h1>
+        <p>$100</p>
+      </div>
+      <div>
+        <img src="./p-4.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="plant">
+        <h1>Daisy Plant</h1>
+        <p>$80</p>
+      </div>
+      <div>
+        <img src="./p-5.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="plant">
+        <h1>Red Leaf plant</h1>
+        <p>$248</p>
+      </div>
+      <div>
+        <img src="./p-6.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="plant">
+        <h1>Yellow Rose</h1>
+        <p>$85</p>
+      </div>
+      <div>
+        <img src="./p-7.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="plant">
+        <h1>White Daisy</h1>
+        <p>$100</p>
+      </div>
+      <div>
+        <img src="./p-8.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="plant">
+        <h1>Decor Money plant</h1>
+        <p>$80</p>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <section class="bg-green-100 p-10 flex flex-col gap-5 mt-5">
+    <h1 class="text-4xl font-bold">Greenden</h1>
+    <p>The standard chunk of Lorem ipsum used since 1500s is reprodused below for the intrest</p>
+    <p>@2024 Greenday.com</p>
+
+  </section>
+
+
+    
+</body>
+</html>
